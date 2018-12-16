@@ -22,43 +22,179 @@
   src: url('../fonts/MullerHeavy.eot') format('embedded-opentype'), url('../fonts/MullerHeavy.woff2') format('woff2'), url('../fonts/MullerHeavy.woff') format('woff'), url('../fonts/MullerHeavy.ttf') format('truetype'), url('../fonts/MullerHeavy.svg#MullerHeavy') format('svg');
 }
 
-@font-face {
-  font-family: 'OpenSans';
-  src: url('fonts/OpenSans.eot');
-  src: url('fonts/OpenSans.eot') format('embedded-opentype'), url('fonts/OpenSans.woff2') format('woff2'), url('fonts/OpenSans.woff') format('woff'), url('fonts/OpenSans.ttf') format('truetype'), url('fonts/OpenSans.svg#OpenSans') format('svg');
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
 }
 
-@font-face {
-  font-family: 'OpenSansBold';
-  src: url('fonts/OpenSansBold.eot');
-  src: url('fonts/OpenSansBold.eot') format('embedded-opentype'), url('fonts/OpenSansBold.woff2') format('woff2'), url('fonts/OpenSansBold.woff') format('woff'), url('fonts/OpenSansBold.ttf') format('truetype'), url('fonts/OpenSansBold.svg#OpenSansBold') format('svg');
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-body {
-  color: black;
-  font-size: 20px;
+fieldset,
+img,
+abbr {
+  border: 0;
 }
 
-.MullerBold {
-  font-family: 'MullerBold';
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
 }
 
-.MullerExtraBold {
-  font-family: 'MullerExtraBold';
+ul li {
+  list-style: none;
 }
 
-.MullerMedium {
-  font-family: 'MullerMedium';
+caption,
+th {
+  text-align: left;
 }
 
-.MullerHeavy {
-  font-family: 'MullerHeavy';
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
 }
 
-.OpenSans {
-  font-family: 'OpenSans';
+sup {
+  vertical-align: text-top;
 }
 
-.OpenSansBold {
-  font-family: 'OpenSansBold';
+sub {
+  vertical-align: text-bottom;
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+legend {
+  color: #000;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+main {
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main {
+  background-image: url(../img/bcg-header.jpg);
+  color: #fff;
+}
+
+.main-wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 60px;
+  display: -webkit-box;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-wrapper .logo {
+  margin-right: 130px;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.main-wrapper nav ul li {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.main-wrapper nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.main-wrapper .phone {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.main-wrapper .btn {
+  border: 2px solid #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.main-content {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
 }
